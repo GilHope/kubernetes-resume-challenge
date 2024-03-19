@@ -4,6 +4,8 @@ RUN docker-php-ext-install mysqli
 
 COPY . /var/www/html
 
+# PLACEHOLDER: Replace with database connection strings to point to K8s service
+
 EXPOSE 80
 
 
